@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>宋学与蜀学 - 厚黑学</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="厚黑学,李宗吾">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../instruction.html">简介</a></li><li class="chapter-item expanded "><a href="../../zongwuyitan/instruction.html"><strong aria-hidden="true">1.</strong> 宗吾臆谈</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/houheixue/instruction.html"><strong aria-hidden="true">1.1.</strong> 厚黑学</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/houheixue/zx.html"><strong aria-hidden="true">1.1.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/xl.html"><strong aria-hidden="true">1.1.2.</strong> 绪论</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/hhxs.html"><strong aria-hidden="true">1.1.3.</strong> 厚黑学上卷：厚黑学</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/hhxzj.html"><strong aria-hidden="true">1.1.4.</strong> 厚黑学中卷：厚黑经</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/hhxcxlx.html"><strong aria-hidden="true">1.1.5.</strong> 厚黑学下卷：厚黑传习录</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/jl.html"><strong aria-hidden="true">1.1.6.</strong> 结论</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/instruction.html"><strong aria-hidden="true">1.2.</strong> 厚黑原理(心理与力学)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/x.html"><strong aria-hidden="true">1.2.1.</strong> 序</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/xlycd.html"><strong aria-hidden="true">1.2.2.</strong> 性灵与磁电</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/mxyxzzd.html"><strong aria-hidden="true">1.2.3.</strong> 孟荀言性之争点</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/sryxwd.html"><strong aria-hidden="true">1.2.4.</strong> 宋儒言性误点</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/gzyxzq.html"><strong aria-hidden="true">1.2.5.</strong> 告子言性正确</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/xlylxglebh.html"><strong aria-hidden="true">1.2.6.</strong> 心理依力学规律而变化</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/rsbhzgd.html"><strong aria-hidden="true">1.2.7.</strong> 人事变化之轨道</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/sjjhzgd.html"><strong aria-hidden="true">1.2.8.</strong> 世界进化之轨道</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/dewxszxz.html"><strong aria-hidden="true">1.2.9.</strong> 达尔文学说之修正</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/klptjxszxz.html"><strong aria-hidden="true">1.2.10.</strong> 克鲁泡特金学说之修正</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/wggzxshylxyl.html"><strong aria-hidden="true">1.2.11.</strong> 我国古哲学说含有力学原理</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/jjzzwjszycyhlzy.html"><strong aria-hidden="true">1.2.12.</strong> 经济、政治、外交三者应采用合力主义</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/woduishengrenzhihuaiyi/instruction.html"><strong aria-hidden="true">1.3.</strong> 我对圣人之怀疑</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/woduishengrenzhihuaiyi/zx.html"><strong aria-hidden="true">1.3.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/woduishengrenzhihuaiyi/wdysrzhy.html"><strong aria-hidden="true">1.3.2.</strong> 我对于圣人之怀疑</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/kaoshizhizhishangque/instruction.html"><strong aria-hidden="true">1.4.</strong> 考试制之商榷</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/kaoshizhizhishangque/zx1.html"><strong aria-hidden="true">1.4.1.</strong> 自序一</a></li><li class="chapter-item "><a href="../../zongwuyitan/kaoshizhizhishangque/zx2.html"><strong aria-hidden="true">1.4.2.</strong> 自序二</a></li><li class="chapter-item "><a href="../../zongwuyitan/kaoshizhizhishangque/kszzsq.html"><strong aria-hidden="true">1.4.3.</strong> 考试制之商榷</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/instruction.html"><strong aria-hidden="true">1.5.</strong> 社会问题之商榷</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/zx.html"><strong aria-hidden="true">1.5.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/gscczqf.html"><strong aria-hidden="true">1.5.2.</strong> 公私财产之区分</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/rxsezyj.html"><strong aria-hidden="true">1.5.3.</strong> 人性善恶之研究</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/sjjhzgd.html"><strong aria-hidden="true">1.5.4.</strong> 世界进化之轨道</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/jjshwtzbf.html"><strong aria-hidden="true">1.5.5.</strong> 解决社会问题之办法</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/gzxszth.html"><strong aria-hidden="true">1.5.6.</strong> 各种学说之调和</a></li></ol></li><li class="chapter-item expanded "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/instruction.html"><strong aria-hidden="true">1.6.</strong> 中国学术之趋势</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/zx.html"><strong aria-hidden="true">1.6.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/lzycmd.html"><strong aria-hidden="true">1.6.2.</strong> 老子与程明道</a></li><li class="chapter-item expanded "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/sxysx.html" class="active"><strong aria-hidden="true">1.6.3.</strong> 宋学与蜀学</a></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/srzdt.html"><strong aria-hidden="true">1.6.4.</strong> 宋儒之道统</a></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/zxwhzrh.html"><strong aria-hidden="true">1.6.5.</strong> 中西文化之融合</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item "><a href="../../houheiconghua/instruction.html"><strong aria-hidden="true">2.</strong> 厚黑丛话</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/instruction.html"><strong aria-hidden="true">2.1.</strong> 厚黑丛话：六卷</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj1.html"><strong aria-hidden="true">2.1.1.</strong> 厚黑丛话：卷一</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj2.html"><strong aria-hidden="true">2.1.2.</strong> 厚黑丛话：卷二</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj3.html"><strong aria-hidden="true">2.1.3.</strong> 厚黑丛话：卷三</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj4.html"><strong aria-hidden="true">2.1.4.</strong> 厚黑丛话：卷四</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj5.html"><strong aria-hidden="true">2.1.5.</strong> 厚黑丛话：卷五</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj6.html"><strong aria-hidden="true">2.1.6.</strong> 厚黑丛话：卷六</a></li></ol></li><li class="chapter-item "><a href="../../houheiconghua/houheiyutan/instruction.html"><strong aria-hidden="true">2.2.</strong> 厚黑余谈</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../houheiconghua/houheiyutan/qy.html"><strong aria-hidden="true">2.2.1.</strong> 前言</a></li><li class="chapter-item "><a href="../../houheiconghua/houheiyutan/wdsxtx.html"><strong aria-hidden="true">2.2.2.</strong> 我的思想体系</a></li></ol></li><li class="chapter-item "><a href="../../houheiconghua/palaopodezhexue/instruction.html"><strong aria-hidden="true">2.3.</strong> 怕老婆的哲学</a></li><li class="spacer"></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">厚黑学</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/januborer/houheixue" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="宋学与蜀学"><a class="header" href="#宋学与蜀学">宋学与蜀学</a></h1>
+<p>中国学术之趋势</p>
+<p>作者：李宗吾　1936年</p>
+<h3 id="一二程与四川之关系编辑"><a class="header" href="#一二程与四川之关系编辑">一、二程与四川之关系编辑</a></h3>
+<p>　　凡人的思想，除受时代影响之外，还要受地域的影响。孔子是鲁围人，故师法周公，管仲是齐国人，故师法太公，孟子是北方人，故推尊孔子，庄子是南方人，故推尊老子。其原因：（一）凡人生在一个地方，对本地之事，耳濡目染，不知不觉，就成了拘墟之见。（二）因为生在此地，对于此地之名人，有精密的观察，能见到他的好处，故特别推称他。此二者可说是一般人的通性，我写这篇文字，也莫有脱此种意味。</p>
+<p>　　程明道的学说，融合儒释道三家而成，是顺应时代的趋势，已如前篇所说。至于地域关系，他生长河南，地居天下之中，为宋朝建都之地，人文荟萃，是学术总汇的地方，故他的学说，能够融合各家之说，这层很像老子，老子为周之柱下史，地点也在河南，周天子建部于此，诸侯朝聘往来，是传播学说集中之点，故老子的学说，能够贯通众说。</p>
+<p>　　独是程明道的学说，很受四川的影响，这一层少人注意，我们可以提出来讨论一下：</p>
+<p>　　明道的父亲，在四川汉州做官，明道与其弟伊川，曾随待来川，伊川文集中，有《为太中（程子父）作试汉州学生策问》三首，《为家君请宇文中允典汉州学书》（再书）及《蜀守记》等篇，都是在四川作的文字。其时四川儒释道三教很盛，二程在川濡染甚深，事实俱在，很可供我们的研究。</p>
+<h3 id="二四川之易学编辑"><a class="header" href="#二四川之易学编辑">二、四川之易学编辑</a></h3>
+<p>　　《宋史‧谯定传》载：程颐之父垧，尝守广汉，颐与其兄灏皆随侍，游成都，见治篾箍桶者，挟册就视之，则易也，欲拟议致诘。而篾者先曰：“若尝学此乎？”因指“未济男之穷”以发问，二程逊而问之，则曰：“三阳皆失位也。”兄弟涣然有所省，翌日再过之。则去矣。伊川晚年注易，于未济卦，备载“三阳失位”之说，并曰：“斯义也，闻之成都隐者。”足证《宋史》所载不虚。据《成华县志》所载二程遇箍桶金的地方，即是省城内之大慈寺。</p>
+<p>　　《谯定传》又载袁滋入洛，问易于颐，颐曰：“易学在蜀耳，盍往求之？”滋入蜀访问，久之，无所遇，已而见卖酱薛翁于眉邛间，与语大有所得。我们细玩“易学在蜀”四字，大约二程在四川，遇著长于易的人很多，不止箍桶翁一人，所以才这样说。</p>
+<p>　　段玉裁做富顺县知县，修薛翁祠，作碑记云：“……继读东莱吕氏撰常州志，有云：‘袁道洁闻蜀有隐君子名，物色之，莫能得，末至一郡，有卖香薛翁，且荷芨之市，午辄扃门默坐，意象静深，道洁以弟子礼见，且陈所学，叟漠然久之，乃曰：经以载道，子何博而寡要也。’与语，未几复去。”《宋史》云“眉邛间”，吕氏云“至一郡”，皆不定为蜀之何郡县，最后读浚仪王氏《困学纪闻》云：“谯天授之易，得于蜀夷族曩氏，袁道洁之易，得于富顺监卖香薛翁。故曰：学无常师。宋之富顺监，即今富顺县也，是其为富顺人无疑。”（见段玉裁《富县志》）究竟薛公是四川何处人，我们无须深考，总之有这一回事，其人是一个平民罢了。（按《宋史》作卖酱，吕王作卖香，似应从吕王，因东莱距道洁不久，《宋史》则元人所修也。）</p>
+<p>　　袁滋问易于伊川，无所得，与卖酱翁语，大有所得，这卖酱翁的学问，当然不小。《论语》上的隐者，如晨门、荷蒉、沮溺、丈人等，不过说了几句讽世话，真实学问如何，不得而知。箍桶翁和卖酱翁，确有真实学问表现，他二人易学的程度，至少也足与程氏弟兄相埒，卖酱翁仅知其姓薛，箍桶翁连姓亦不传，真是鸿飞冥冥的高人。</p>
+<p>　　易学是二程的专长，二人语录中，谈及易的地方，不胜枚举。《宋史》张载传称：“载尝坐虎皮，讲易京师，听者甚众，一夕，二程至，与论易，次日语人曰：‘比见二程，深明易理，吾所不如，汝辈可师之。’撒坐辍讲。”据此可见二程易学之深，然遇著箍桶翁则敬谨领教，深为佩服，此翁之学问，可以想见。袁滋问易，伊川不与之讲授，命他入蜀访求，大约他在四川受的益很多，才自谦不如蜀人，于此可见四川易学之盛。据《困学纪闻》所说，四川的夷族，也能传授高深的易学。可见那个时候，四川的文化，是很普遍的，易经是儒门最重要之书，《易学》是二程根本之学，与四川发生这样的关系，这是很值得研究的。</p>
+<h3 id="三四川之道教编辑"><a class="header" href="#三四川之道教编辑">三、四川之道教编辑</a></h3>
+<p>　　薛翁说袁道洁博而寡要，俨然道家口吻，他扃门默坐，意象静深，俨然道家举止。可见其时道家一派，蜀中也很盛。二程在蜀，当然有所濡染。</p>
+<p>　　宋儒之学，据学者研究，是杂方士派，而方士派，蜀中最盛，现在讲静功的人，奉《参同契》和《悟真篇》二书为金科玉律，此二书均与四川有甚深之关系。</p>
+<p>　　《悟真篇》是宋朝张伯端字平叔号紫阳所著，据他自序，是熙宁己酉年，随龙图陆公到成都，遇异人传授。考熙宁己酉，即宋神宗二年，据伊川所作《先公太中传》称：“神宗即位代还，知汉州，熙宁中议行新法，州县嚣然，皆以为不可，公未尝深论也，及法出，为守令者奉行惟恐后。成都一道，抗议指其未便者，独公一人。”神宗颁行新法，在熙宁二年，即是张平叔遇异人传授之年，正是二程在四川的时候。平叔自序，有“既遇真筌，安敢隐默”等语。别人作的序有云：“平叔遇青城丈人于成都。”又云：“平叔传非其人，三受祸患。”汉州距成都只九十里，青城距成都，距汉州，俱只百馀里，二程或者曾与青城丈人或张平叔相遇。否则平叔既不甚秘惜其术，二程间接得闻也未可知。</p>
+<p>　　现在流行的《参同契集注》，我们翻开一看，注者第一个是彭晓，第二个是朱子。彭晓字秀川，号真一子，仕孟昶为祠部员外郎，是蜀永康人。永康故治，在今崇庆县西北六十里。南宋以前，注《参同契》者十九家，而以彭晓为最先，通行者皆彭本，分九十一章，朱子乃就彭本，分上中下三卷。宁宗元年，蔡季通编置道州，在“寒泉精舍”与朱子相别，相与订正《参同契》，竟夕不寐，明年季通卒，越二年朱子亦卒。足见朱子晚年都还在研究《参同契》这种学说。清朝毛西河和胡渭等证明：宋儒所讲，无极太极，河图洛书，是从华山道士陈抟传来。朱子解易，曾言：“邵子得于希夷（即陈抟），希夷源流，出自《参同契》。”宋学既与《参同契》发生这种关系，而注《参同契》之第一个人是彭晓，出在四川，他是孟昶之臣，孟昶降宋，距二程到川，不及百年，此种学说，流传民间，二程或许也研究过。</p>
+<p>　　义和团乱后，某学者著一书，说：“道教中各派，俱发源于四川，其原因就是由于汉朝张道陵，在四川鹤鸣山修道，其学流传民间，分为各派，历代相传不绝。”他这话不错，以著者所知，现在四川的教派很多，还有几种传出外省，许多名人，俯道称弟子，这是历历可数的。逆推上去，北宋时候，这类教派当然很盛，二程在蜀当然有所濡染。</p>
+<h3 id="四四川之佛教编辑"><a class="header" href="#四四川之佛教编辑">四、四川之佛教编辑</a></h3>
+<p>　　佛教派别很多，宋儒所谓佛学者，大概指禅宗者而言，禅宗至六祖慧能而大盛。六祖言：“不思善，不思恶，正恁么时，那个是明上座本来面目？”宋儒教人：“看喜怒哀乐未发前气象。”宛然是六祖话头。</p>
+<p>　　四川佛教，历来很盛，华严宗所称为五祖的宗密，号圭峰，即是唐明四川西充人。唐三藏法师玄奘，出家在成都大慈寺。以禅宗而论，六祖再传弟子“马道一”，即是张文定所说的马大师，是四川什邡人，他在禅宗中的位置，与宋学中的朱子相等，有《五灯会元》可考。他的法嗣，布于天下，时号马祖。他出家在什邡罗汉寺，得道在衡岳，传道在江西，曾回什邡筑台说法，邑人称为活佛。（《什邡县志》）二程到四川的时候，当然他的流风馀韵，犹有存者。什邡与汉州毗连，现在什邡高景关内，有雪门寺，相传二程曾在寺中读书，后人于佛殿前，建堂祀二程，把寺名改为雪门，取“立雪程门”之义。（《什邡县志》）二程为甚不在父亲署内读书，要跑到什邡去读？一定那个庙子内有个高僧，是马祖法嗣，二程曾去参访，住了许久，一般人就说他去读书了。</p>
+<p>　　马祖教人，专提“心即是佛”四字，伊川曰“眭即理也”，宛然马祖声口，这种学理，或许从雪门寺高僧得来。</p>
+<p>　　宋朝禅宗大师宗杲，名震一时，著有《大慧语录》，朱子也曾看他的书，并引用他的话，如“寸铁伤人”之语。张魏公是四川广汉人，他的母亲秦国夫人，曾在大慧门下，参禅有得，事载《五灯会元》。大慧之师圆悟，是成都昭觉寺和尚，著有《圆悟语录》，成都昭觉寺，现有刻板。书首载有张魏公序文，备极推崇。圆悟与二程，约略同时，二程在川之时，四川禅风当然很盛，二程当然有所濡染。</p>
+<h3 id="五二程讲道台编辑"><a class="header" href="#五二程讲道台编辑">五、二程讲道台编辑</a></h3>
+<p>　　二程的父亲，卒于元祜五年庚午，年八十五岁，逆推至熙宁元年戊申，年六十三岁，其时王安石厉行新法，明道曾力争不听，他们弟兄，不愿与安石共事，因为父亲年已高，所以侍父来蜀。明道生于宋仁宗明道元年壬申，伊川生于二年癸酉，二人入蜀时，年三十六七岁，正是年富力强的时候。他们抛弃了政治的生活，当然专心研究学问。王阳明三十七岁，谪居贵州龙场驿，大悟格物致知之旨，与二程在汉州时，年龄相同，不得志于政治界，专心研究学问，忽然发明新理，也是相同。</p>
+<p>　　现在汉州城内，开元寺前，有“二程讲道台”（《汉州志》），可见二程在汉州，曾召集名流，互相讨论，把三教的道理，融会贯通，恍然有得，才发明所谓宋学。伊川所说的“返求诸六经，然后得之”，大约就在这个时候。汉州开元寺，可等于王阳明的龙场驿。</p>
+<p>　　宋明诸儒，其初大都出入佛老，其所谓佛者，是指禅宗而言，其所谓老者，不纯粹是老子，兼指方士而言。阳明早年，曾从事神仙之学，并且修习有得，几于能够前知。有阳明年谱可证。不过阳明不自讳，宋儒就要多方掩饰，朱子著《参同契考异》托名“华山道士邹诉”，不直署已名，掩饰情形，显然可见。</p>
+<p>　　二程是敏而好学、不耻下问的人，遇著箍桶匠，都向他请教，当然道家的紫阳派、真一派，佛家的圆悟派，也请教过的。我们看程子主张“半日读书，半日静坐”，形式上都带有佛道两家的样子，一定与这两家有关系。伊川少时，体极弱，愈老愈健，或许得力于方士派的静坐，不过后来排斥佛老，与这两家发生关系的实情，不肯一一详说，统以“出入佛老”一语了之。箍桶翁是他自己说出，并笔之于书，后人方才知道。</p>
+<p>　　我们从旁的书考证，宋朝的高僧甚多，乃《宋史》仅有《方技传》，而高僧则绝不一载。此由宋儒门户之见最深，元朝修《宋史》的人，亦染有门户习气。一意推崇道学，特创道学传，以位置程朱诸人，高僧足与程朱争名，故削而不书。方技中人，不能夺程朱之席，故备书之。以我揣想：即使二程曾对人言，在蜀时，与佛老中人，如何往还，宋史亦必削而不书，箍桶翁，和卖酱翁，不能与二程争名，才把他写上，其馀的既削而不书，我们也就无从详考。</p>
+<h3 id="六孟蜀之文化编辑"><a class="header" href="#六孟蜀之文化编辑">六、孟蜀之文化编辑</a></h3>
+<p>　　箍桶翁、卖酱翁传易，张平叔、彭晓传道，圆悟传禅，可见其时四川的学者很多，请问为什么那个时候四川有许多学者呢？因为汉朝文翁化蜀后，四川学风就很盛。唐时天下繁盛的地方，扬州第一，四川第二，有“扬一益二”之称。唐都陕西，地方与蜀接近，那个时候的名人，莫到过四川的很少，所以中原学术，就传到四川来。加以五代时，中原大乱，许多名流，都到四川来避难。四川这个地方，最适宜于避难。前乎此者，汉末大乱，中原的刘巴、许靖都入蜀避难，后乎此者，邵雍临死，说“天下将乱，惟蜀可免”。他的儿子邵伯温，携家入蜀，卒免金人之祸。昔人云“天下未乱蜀先乱，天下已治蜀后治”，这是对乎中原而言，因为地势上的关系，天下将乱，朝廷失了统御力，四川就首先与之脱离，故谓之先乱，等到中原平定了，才来征服，故谓之后治，其实四川关起门是统一的，内部是很安定的。</p>
+<p>　　五代时，中原战争五十多年，四川内政很修明。王孟二氏，俱重文学，《十国春秋》说王建“雅好儒臣，礼遇有加”，又说王衍“童年即能文，甚有才思”。孟蜀的政治，比王蜀更好，孟氏父子二世，凡四十一年。孟昶在位三十二年，《十国春秋》说孟昶“劝农恤刑，肇兴文教，孜孜求治，与民休息”。又曰：“后主（指昶）朝宋时，自二江至眉州，万民拥道痛哭，恸绝者凡数百人，后主亦掩面而泣，藉非慈惠素著，亦何以深入人心至此哉？”这是孟昶亡国之后，敌国史臣的议论，当然是很可信的。清朝知县大堂面前牌坊，大书曰：“尔俸尔禄，民膏民脂，下民易虐，上天难欺”，这十六字，是宋太宗从孟昶训饬州县文中选出来，颁行天下的（见《容斋续笔》戒石铭条），昶之整饬吏治，已可概见。</p>
+<p>　　后世盛称文景之治，文帝在位二十三年，景帝在位十六年，合计不赶二十九年。孟氏父子，孜孜求治，居然有四十一年之久，真可谓太平盛世。国内既承平，所以大家都研究学问，加以孟昶君臣，都提倡文学。《十国春秋》曰：“帝（指昶）好学，为文皆本于理，居恒谓李昊、徐光溥曰：‘王衍浮薄而好为轻艳之文，朕不为也。’”他的宰相母昭裔，贫贱时，向人借“文选”，其人有难色，他发愤说道：“我将来若贵，当镂板行之。”后来他在蜀做了宰相，请后主镂板印九经，又把九经刻石于成都学宫，自己出私财营学宫，立黉舍，又刻文选，初学记，白氏六帖。国亡后，其子守素齐至中朝，诸书大章于世。纪晓岚著《四库提要》叙此事，并且说：“印行书籍，创见于此。”他们君臣，在文学上的功绩，可算不小。</p>
+<p>　　孟昶君臣，既这样的提倡文学，内政又修明，当然中原的学者，要向四川来，所以儒释道三教的学问，普及到了民间。二程和袁滋，不过偶尔遇著两个，其馀未遇著的，不知还有若干。因为有了这样普遍的文化，所以北宋时，四川才能产出三苏和范镇诸人。苏子由说：“辙生十九年，书无不读。”倘非先有孟昶的提倡，他在何处寻书来读？若无名人指示门径，怎么会造成大学问？东坡幼年曾见出入孟昶宫中的老尼。二程二苏，与孟蜀相距不远，他们的学问，都与孟昶有关。子夏居西河，魏文侯受经于子夏。初置博士官，推行孔学，秦承魏制，置博士官，伏生、叔孙通、张苍，皆故秦博士。梁任公说：“儒教功臣，第一是魏文侯。”我们可以说：“宋学功臣第一是孟昶。”</p>
+<p>　　隋朝智者大师，居天台山，开天台宗，著有《大小止观》。唐朝道士司马承祯，字子微，也居天台山，著有《天隐子》，又著《坐忘论》七篇。《玉涧杂书》云：“道释二氏，本相矛盾，而子微之学，乃全本于释氏，大抵以戒定慧为宗，……此论与智者所论止观，实相表里，子微中年隐天台玉霄峰，盖智者所居，知其渊源有自也。”（《图书集成》道教部杂录）。由此知：凡是互相矛盾的学问，只要同在一个地方，就有融合之可能。五代中原大乱，三教中的名人，齐集成都，仿佛三大河流，同趋于最隘的一个峡口，天然该融合为一。大约这些名流，齐集成都，互相讨论，留下不少的学说，明道弟兄来川，召集遗老，筑台讲道，把他集合来，融会贯通，而断以己意，成为一个系统，就成为所谓宋学。</p>
+<h3 id="七苏子由的学说编辑"><a class="header" href="#七苏子由的学说编辑">七、苏子由的学说编辑</a></h3>
+<p>　　大家只知程氏弟兄是宋学中的泰斗，不知宋朝还有一个大哲学家，其成就，较之程氏弟兄，有过之无不及，一般人都把他忽略了，此人为谁？即是我们知道的苏子由。程氏弟兄做了融合三教的工作，还要蒙头盖面，自称是孔孟的真传；子由著有《老子解》，自序著此书时，曾同僧道全商酌，他又把中庸“喜怒哀乐之未发”，和六祖“不思善，不思恶”等语，合并研究，自己直截了当的说出来，较诸其他宋儒光明得多。子由之孙苏籀，记其遗言曰：“公为籀讲老子数篇，曰：‘高出孟子二三等矣。’又曰：‘言至道无如五千文。’”苏籀又说：“公老年作诗云：‘近存八十一章注，从道老聃门下人。’盖老而所造益妙，录录者莫测矣。”子由敢于说老子高出孟子二三等，自认从道老聃门下，这种识力，确在程氏弟子高之上。苏东坡之子苏迈等，著有《先公手泽》，载东坡之言曰：</p>
+<p>　　“昨日子由寄老子新解，读之不尽卷，废卷而叹，使战国有此书，则无商鞅韩非，使汉初有此书，则孔老为一，使晋宋间有此书，则佛老不为二，不意晚年见此奇特。”（以上见焦弱侯《老子翼》）我初读东坡此段文字，心想子由此书，有甚好处，值得如此称叹，后来始知纯是赞叹他融合三教的工作。</p>
+<p>　　明朝有个李卓吾，同时的人，几乎把他当作圣人，他对于孔子，显然攻击，著《藏书》六十八卷，自序有曰：“前三代吾无论矣，后三代汉唐宋是也，中间数百馀年，而独无是非者，岂其人无是非哉？咸以孔子之是非为是非，因未尝有是非耳。”又曰：“此书但可自怡，不可示人，故名藏书也，而无奈一二好事朋友，索观不巳，予又安能以已耶，但戒曰：览则一任诸君览，但无以孔夫子之定本行赏罚也则善矣。”他生在明朝，思想有这样的自由，真令人惊诧，但因为创出这样的议论，闹得书被焚毁，身被逮捕，直至自刎而死，始终持其说不变。其自信力有这样的坚强，独对苏子由非常佩服，万历二年，他在金陵刻子由《老子解》，题其后曰：“解老子者众矣，而子由最高，……子由乃独得微言于残篇断简之中，宜其书发老子之蕴，使五千馀言，灿然如皎日，学者断乎不可一日去手也，解成示道全，当道全意，寄子瞻，又当子瞻意，今去子由五百馀年，不意复见此奇特。”卓吾这样的推崇子由，子由的学问也就可知了。</p>
+<p>　　苏子由在学术上，有了这样的成就，何以谈及宋学，一般人只知道有程朱，不知道有子由呢？其原因：（一）子由书成年已老，子由死于政和二年壬辰，年七十四岁，此书几经删改，至大观一年戊子十二月方才告成。程明道死于元丰八年乙丑，年五十四岁，伊川死于大观元年丁亥，年七十五岁。子由成书时，在明道死后二十三年，伊川死后一年，那个时候，程氏门徒遍天下，子由的学说，出来的迟，自不能与他争胜。子由书成后四年即死，也就无人宣传他的学说了。（二）那时党禁方严，禁人学习元祐学术，伊川谢绝门徒道：“尊所闻，行所知可也，不必及吾门也。”连伊川都不敢宣传他的学问，子由何能宣传？伊川死时，门人不敢送丧，党禁之严可想。史称子由“筑室颖滨，不复与人相见，终日默坐，如是者几十年”。据此，则子由此书，能传于世，已算侥幸，何敢望其通行？（三）后来朱子承继伊川之学，专修洛蜀之怨，二苏与伊川不合，朱子对于东坡所著《易传》、子由所著《老子解》，均痛加诋毁。其诋子由曰：“苏侍郎晚为是书，合吾儒于老子，以为未足，又并释氏而弥缝之，可谓舛矣，然其自许甚高，至谓当世无一人可以语此者，而其兄东坡公，亦以为‘不意晚年见此奇特’，以予观之，其可谓无忌惮者欤，因为之辩。”（见《宋元学案》）《中庸》有“小人而无忌惮”之语，朱子说他无忌惮，即是说他是小人，此段文字，几于破口大骂。朱子又把子由之说，逐一批驳，大都故意挑剔，其书具在，可以复按。朱子是历代帝王尊崇的人，他既这样攻击子由，所以子由的学说，也就若存若亡，无人知道了。（四）最大原因，则孔子自汉武帝而后，取得学术界正统的地盘，程子做融合三教的工作，表面上仍推尊孔子，故其说受人欢迎，子由则赤裸裸的说出来，欠了程明道的技术，所以大受朱子的攻击，而成为异端邪说。朱子痛诋子由，痛诋佛老，是出于门户之见，我们不必管，只看学术演进的情形就是了。</p>
+<h3 id="八学术之演进编辑"><a class="header" href="#八学术之演进编辑">八、学术之演进编辑</a></h3>
+<p>　　我们从进化趋势上看去，觉得到了北宋的时候，三教应该融合为一，程明道和苏子由，都是受了天然趋势的驱迫。程子读了许多书，来在四川，加以研究，完成融合三教的工作。苏子由在四川读了许多书，去在颖滨，闭门研究，也完成融合三教的工作，二者都与四川有关。这都是由于五代时，中原大乱，三教名流，齐集成都，三大河流，同时流人最隘一个峡口的原故。子由少时在蜀，习闻诸名流绪论，研究多年，得出的结果，也是融合三教，也是远于释氏而偏迩于老聃，与大程子如出一辙。可见宇宙真理，实是如此。从前佛教传人中国，与固有学术生冲突，历南北隋唐以至五代，朝廷明令天下毁佛寺，焚佛经，诛僧尼之事凡数见，自宋儒之学说出，而此等冲突之事遂无，不过讲学家文字上小有攻讦而已，何也？根本上已融合故也。</p>
+<p>　　世界第一次大战，第二次大战，纷争不已者，学说纷歧使之然也。现在国府迁移重庆，各种学派之第一流人物，与夫留学欧美之各种专门家，大都齐集重庆，俨如孟蜀时，三教名流，齐集成都一样，也都是无数河流，趋入一个最隘之峡口。我希望产生一种新学说，融合中西印三方学术而一之，而世界纷争之祸，于焉可免。（著者按：初版时，国府尚未迁移重庆，则只言：现在交通便利，天涯比邻，中国、印度、西洋三大文化接触，相推相荡，也是三大河流，趋入最隘的峡口，中西印三大文化，也该融合为一。）</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../zongwuyitan/zhongguoxueshuzhiqushi/lzycmd.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../zongwuyitan/zhongguoxueshuzhiqushi/srzdt.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../zongwuyitan/zhongguoxueshuzhiqushi/lzycmd.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../zongwuyitan/zhongguoxueshuzhiqushi/srzdt.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+        <script src="../../ace.js"></script>
+        <script src="../../editor.js"></script>
+        <script src="../../mode-rust.js"></script>
+        <script src="../../theme-dawn.js"></script>
+        <script src="../../theme-tomorrow_night.js"></script>
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

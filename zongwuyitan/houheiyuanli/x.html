@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>序 - 厚黑学</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="厚黑学,李宗吾">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../instruction.html">简介</a></li><li class="chapter-item expanded "><a href="../../zongwuyitan/instruction.html"><strong aria-hidden="true">1.</strong> 宗吾臆谈</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/houheixue/instruction.html"><strong aria-hidden="true">1.1.</strong> 厚黑学</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/houheixue/zx.html"><strong aria-hidden="true">1.1.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/xl.html"><strong aria-hidden="true">1.1.2.</strong> 绪论</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/hhxs.html"><strong aria-hidden="true">1.1.3.</strong> 厚黑学上卷：厚黑学</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/hhxzj.html"><strong aria-hidden="true">1.1.4.</strong> 厚黑学中卷：厚黑经</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/hhxcxlx.html"><strong aria-hidden="true">1.1.5.</strong> 厚黑学下卷：厚黑传习录</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/jl.html"><strong aria-hidden="true">1.1.6.</strong> 结论</a></li></ol></li><li class="chapter-item expanded "><a href="../../zongwuyitan/houheiyuanli/instruction.html"><strong aria-hidden="true">1.2.</strong> 厚黑原理(心理与力学)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../zongwuyitan/houheiyuanli/x.html" class="active"><strong aria-hidden="true">1.2.1.</strong> 序</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/xlycd.html"><strong aria-hidden="true">1.2.2.</strong> 性灵与磁电</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/mxyxzzd.html"><strong aria-hidden="true">1.2.3.</strong> 孟荀言性之争点</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/sryxwd.html"><strong aria-hidden="true">1.2.4.</strong> 宋儒言性误点</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/gzyxzq.html"><strong aria-hidden="true">1.2.5.</strong> 告子言性正确</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/xlylxglebh.html"><strong aria-hidden="true">1.2.6.</strong> 心理依力学规律而变化</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/rsbhzgd.html"><strong aria-hidden="true">1.2.7.</strong> 人事变化之轨道</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/sjjhzgd.html"><strong aria-hidden="true">1.2.8.</strong> 世界进化之轨道</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/dewxszxz.html"><strong aria-hidden="true">1.2.9.</strong> 达尔文学说之修正</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/klptjxszxz.html"><strong aria-hidden="true">1.2.10.</strong> 克鲁泡特金学说之修正</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/wggzxshylxyl.html"><strong aria-hidden="true">1.2.11.</strong> 我国古哲学说含有力学原理</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/jjzzwjszycyhlzy.html"><strong aria-hidden="true">1.2.12.</strong> 经济、政治、外交三者应采用合力主义</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/woduishengrenzhihuaiyi/instruction.html"><strong aria-hidden="true">1.3.</strong> 我对圣人之怀疑</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/woduishengrenzhihuaiyi/zx.html"><strong aria-hidden="true">1.3.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/woduishengrenzhihuaiyi/wdysrzhy.html"><strong aria-hidden="true">1.3.2.</strong> 我对于圣人之怀疑</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/kaoshizhizhishangque/instruction.html"><strong aria-hidden="true">1.4.</strong> 考试制之商榷</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/kaoshizhizhishangque/zx1.html"><strong aria-hidden="true">1.4.1.</strong> 自序一</a></li><li class="chapter-item "><a href="../../zongwuyitan/kaoshizhizhishangque/zx2.html"><strong aria-hidden="true">1.4.2.</strong> 自序二</a></li><li class="chapter-item "><a href="../../zongwuyitan/kaoshizhizhishangque/kszzsq.html"><strong aria-hidden="true">1.4.3.</strong> 考试制之商榷</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/instruction.html"><strong aria-hidden="true">1.5.</strong> 社会问题之商榷</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/zx.html"><strong aria-hidden="true">1.5.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/gscczqf.html"><strong aria-hidden="true">1.5.2.</strong> 公私财产之区分</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/rxsezyj.html"><strong aria-hidden="true">1.5.3.</strong> 人性善恶之研究</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/sjjhzgd.html"><strong aria-hidden="true">1.5.4.</strong> 世界进化之轨道</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/jjshwtzbf.html"><strong aria-hidden="true">1.5.5.</strong> 解决社会问题之办法</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/gzxszth.html"><strong aria-hidden="true">1.5.6.</strong> 各种学说之调和</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/instruction.html"><strong aria-hidden="true">1.6.</strong> 中国学术之趋势</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/zx.html"><strong aria-hidden="true">1.6.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/lzycmd.html"><strong aria-hidden="true">1.6.2.</strong> 老子与程明道</a></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/sxysx.html"><strong aria-hidden="true">1.6.3.</strong> 宋学与蜀学</a></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/srzdt.html"><strong aria-hidden="true">1.6.4.</strong> 宋儒之道统</a></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/zxwhzrh.html"><strong aria-hidden="true">1.6.5.</strong> 中西文化之融合</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item "><a href="../../houheiconghua/instruction.html"><strong aria-hidden="true">2.</strong> 厚黑丛话</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/instruction.html"><strong aria-hidden="true">2.1.</strong> 厚黑丛话：六卷</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj1.html"><strong aria-hidden="true">2.1.1.</strong> 厚黑丛话：卷一</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj2.html"><strong aria-hidden="true">2.1.2.</strong> 厚黑丛话：卷二</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj3.html"><strong aria-hidden="true">2.1.3.</strong> 厚黑丛话：卷三</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj4.html"><strong aria-hidden="true">2.1.4.</strong> 厚黑丛话：卷四</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj5.html"><strong aria-hidden="true">2.1.5.</strong> 厚黑丛话：卷五</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj6.html"><strong aria-hidden="true">2.1.6.</strong> 厚黑丛话：卷六</a></li></ol></li><li class="chapter-item "><a href="../../houheiconghua/houheiyutan/instruction.html"><strong aria-hidden="true">2.2.</strong> 厚黑余谈</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../houheiconghua/houheiyutan/qy.html"><strong aria-hidden="true">2.2.1.</strong> 前言</a></li><li class="chapter-item "><a href="../../houheiconghua/houheiyutan/wdsxtx.html"><strong aria-hidden="true">2.2.2.</strong> 我的思想体系</a></li></ol></li><li class="chapter-item "><a href="../../houheiconghua/palaopodezhexue/instruction.html"><strong aria-hidden="true">2.3.</strong> 怕老婆的哲学</a></li><li class="spacer"></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">厚黑学</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/januborer/houheixue" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="序"><a class="header" href="#序">序</a></h1>
+<h3 id="序编辑"><a class="header" href="#序编辑">序编辑</a></h3>
+<p>　　民国二十四年，余应川大之聘，自滇飞蜀。莅校未几，辄闻朋辈谈及富顺李宗吾先生所著厚黑学，谓：“自古英雄，创业垂统，未有不面厚心黑者。”余甚异其说，因觅得先生所著丛书五种读之：（一）厚黑学，（二）厚黑丛话，（三）考试制之商榷，（四）社会问题之商榷，（五）中国学术之趋势。前两种谈厚黑，后三种至理名言，络绎不绝。而后知先生之言，皆未经人道破之真理，而所谓厚黑者，第如说部开幕之楔子，后三种之学理，业已隐括其中矣。</p>
+<p>《社会问题之商榷》，于个人主义经济学，社会主义经济学之外，别创一说，融合个人与社会而一之，撷取两方之精义，而归于至当。《中国学术之趋势》，大旨谓：西洋学说，与印度学说，皆不免偏于一面。若将中国学说，发挥光大之，则可融合东西两者，而归于一，学说既一，则和平可期，而大同郅治，乃可实现。至《考试制之商榷》，则指摘晚近学制流弊，不遗馀力，坚主以考试制救之。民国十三年，先生建议四川省长公署，自请试办，虽遭学生殴击，而持之益力，由是考试制遂行于全川。往岁中央颁令考试，就余所知，其实行最先者惟吾福建，讵知川省之实行，尚前于明令之颁布者十年，而主之者乃为先生乎。</p>
+<p>　　先生书中，最足解颐者，《厚黑丛话》有云：“去年吴稚晖在重庆时，新闻记者，友人毛畅熙，约我同去会他，我说：我何必去会他呢？他读尽中外奇书，独莫有读过厚黑学。他自称是大观园中的刘姥姥，此次由重庆，到成都，登峨眉，游嘉定，大观园中的风景和人物，算是看遍了，独于大观园外面，有一个最清白的石狮子，他却未见过，我不去会他，特别与他留点憾事。”余笑谓友人曰：“蜀多奇士，昔二程研易，遇箍桶翁，而易学大进。余年未五十，而亦酷嗜易理，得见厚黑教主，而闻其绪论，则二程不得专美于前矣。不然万里西行，空劳跋涉耳。”适因事访留美旧同学巴县董徽叔，得见先生。先生询知余正编辑《近代物理》及《理论力学》，并嗜易学，则大喜。其时先生方著《心理与力学》，每成一章，辄就商于余，属以力学数学规律严绳之，余用是得览其全稿，叹为近世惟一创作，其文约数万言，今特揭其要略，为读者介绍焉。</p>
+<p>　　（一）牛顿发明万有引力，谓地心有引力，能将泥土沙石，有形有体之物，吸集之而成为地球，因创出力学三例，此学术上第一次大发明也，爱因斯坦将牛顿学说扩大之，谓有行无体之光线，亦受吸引，天空中众星球，能将直线进行之光线，吸引之成为弯曲形状，因创出相对论，此学术上第二次大发明也。先生将爱因斯坦之说，再扩大之，谓人心亦有引力，能将耳闻目睹，无形无体之物，吸集之而成为心。心之构成，与地球之构成相似。故牛顿三例，爱因斯坦相对论，均适用于心理学，因创一公例：“心理变化，循力学公例而行。”可谓学术上第三次大发明。</p>
+<p>　　（二）孟子之性善说，荀子之性恶说，为吾国二千馀年未决之悬案。先生谓：心理之变化，一如磁电之变化，就两家学说，绘之为图，即知其纯是磁电现象，而性善性恶之说，遂成为无谓之争执。</p>
+<p>　　（三）历史上离奇之事伙矣，良友也忽而成仇仇，仇仇也忽而为良友，某也忽焉而成功，某也忽焉而失败，先生本力学公例，绘之为图，而后知其错综变化，一一有轨道可寻。</p>
+<p>　　（四）先生谓：人世事变，由人与人接触而生，一曰我，二曰人，是为二元。自数学上言之，可得五种线：一、二直线；二、圆；三、抛物线；四、椭圆；五、双曲线。人事万变，皆不出此五种轨道，一一举例说明之。</p>
+<p>　　（五）世界进化，则为三元：一曰力，二曰空间，三曰时间，其进化所走之轨道，为三元中之螺旋线。先生例举事实证明之，断为世界终必大同而后止。</p>
+<p>　　（六）先生谓：西人以力学公例，施之物理上，中国古人，以力学公例，施之人事上。《周易》一书，具备力学原理；老子学说，通于牛顿；庄子学说，通于爱因斯坦；孔孟告荀，及其他诸子，与夫宋明理学家，程朱阳明诸人学说，无不含有力学原理。旁征博引，其说凿然不诬。特诸家之说，有见其全者，有见其偏者，先生一一以力学公例衡之，其说之是非得失，遂如经犀照焉。</p>
+<p>　　（七）达尔文之互竞说，其弊流为互相冲突，克鲁泡特金之互助说，其弊流为互相倚赖。先生创为合力说，如射箭然，支支箭向同一之箭垛射去，彼此不相倚赖，而又不相冲突，其说洵足救达克二氏之弊。</p>
+<p>　　（八）先生既倡合力之说，因将经济政治外交三者，一一拟具实施办法，以“合力主义”出之，不以他人有理论而无办法，或有办法而无理论。当此群言淆乱之日，有先生之说出，其造福人类，宁有涯耶。</p>
+<p>　　以上各点，经余以力学数学规律绳之，悉皆吻合。先生诚近代大思想家也，向者东西学术，判若鸿沟，吾闽严几道，起而沟道之，几道以还，阒无其人。先生崛起西蜀，将心理与力学，贯通为一，举凡古今之成败兴衰，学说之是非得失，人事之错综变化，国家之法令制度，悉以力学规律裁衡之。东西学术，遂融合无间，谓非学术上之大发明，不可得已。甚望国中学者，起而研究之，发挥之，俾此种学说，播诸欧美，岂非吾国之光乎？顾先生深自谦挹，谓此不过一种臆说，宇宙真理，容不如此。先生之说，其究为真理耶？臆说耶？读者诸君，当能深研而自得之。</p>
+<p>　　民国二十六年，四月一日，愚人节。检阅全川公路出发之前夕，古闽江超西，倚装草于国立四川大学理学院。</p>
+<h4 id="自序一编辑"><a class="header" href="#自序一编辑">自序一编辑</a></h4>
+<p>　　民国元年，我在成都《公论日报》，发表一文，题曰：〈厚黑学〉，谓古今成功之英雄，无一非面厚心黑者。这本是一种游戏文字，不料自此以后，厚黑学三字，竟洋溢乎四川，成一普通名词。我自己也莫名其妙，心想此等说法，能受一般人欢迎，一定与心理学有关系，继续研究去，始知厚黑学是渊源于性恶说，在学理上是有根据的，然私心终有所疑。再继续研究去，遍寻中外心理学诸书读之，均不足解我之疑，乃将古今人说法，尽行扫去，另用物理学的规律，来研究心理学。觉得人心之变化，处处是跟着力学公例走的。从古人事迹上、现今政治上、日用琐事上、自己心坎上、理化数学上、中国古书上、西洋学说上，四面八方，印证起来，处处可通。乃创一公例：“心理变化，循力学公例而行。”民国九年，写一文曰〈心理与力学〉，十六年刊入拙著《宗吾臆谈》内。兹特重加整理，扩大为一单行本。</p>
+<p>　　我这《心理与力学》一书，开始于民国九年，今为民国廿七年，历时十八年，而此书渊源于厚黑学。我研究厚黑学，始于满清末年，可以说：此书之成，经过三十馀年之久。记得唐朝贾岛，做了两句诗：“独行潭底影，数息树边身。”自己用笔批道：“二句三年得，一吟双泪流。”我今日表此书，真有他那种感想。</p>
+<p>　　我的思想，好比一株树；厚黑学是思想之出点，等于树根；因厚黑学而生出一条公例：“心理变化，循力学公例而行。”，等于树身；其他所写《社会问题之商榷》、《考试制之商榷》、《中国学术之趋势》，与夫最近所写的《制宪与抗日》等书，都是以“心理变化，循力学公例而行。”这条公例为根据，等于树上生出的枝叶花果。故我所写的文字，虽种种不同，实是一贯。</p>
+<p>　　去岁遇川大教授福建江超西先生，是专门研究物理学的，并且喜欢研究易学，是博通中外的学者。我把稿子全部拏与他看，把所有疑点，提出请教。承蒙一一指示，认为我这种说法讲得通，并赐序一篇，我是非常感激。然而我终不敢自信，请阅者不客气的赐教。我研究这个问题，已经闹得目迷五色，文中种种说法，对与不对，自己无从知道。我重在解释心中疑团，阅者指驳越严，我越是感激，绝不敢答辩一字。诸君赐教的文字，可在任何报章杂志上发表，发表后，请惠寄一份，交成都《华西日报》转交，以便改正。</p>
+<p>　　民国二十七年一月十三日，富顺，李宗吾，于成都。</p>
+<h3 id="自序二编辑"><a class="header" href="#自序二编辑">自序二编辑</a></h3>
+<p>　　我发表此书后，得着不少的批评，使我获益匪浅，至为感谢。除全部赞成和全部否认者外，其有认为大致不差，某某点尚应该改者，我已遵照修改。有些地方，虽经指示，而我认为尚应商酌者，则暂仍其旧，请阅者再加指正。所有赐教文字，请交重庆《国民公报》转交，以便再加修改。</p>
+<p>　　读者常驳我道：“人之心理，变化不测，哪里会有规律？”我说：物理也是变化不测，何以又有规律？今之科学家，研究物理，可谓极精了。我们试取一瓷杯，置之地上，手执一铁锤，请问：此锤击下去，此杯当成若干块？每块形状如何？恐怕聚世界科学家研究之，无一人能预知，所可知者，铁锤击下，此杯必破裂而已。何也？杯子内部分子之构造，无从推测也，我们不能因此就说，物理变化，无有规律。人藏其心，不可测度，与瓷杯之分子相同，所以心理变化，如珠走盘，横斜曲直，不可得知，所可知者，必不出此盘而已。人持弓箭，朝东射，朝西射，我们不能预知，但一射出来，其箭必依抛物线进行，这即是力之规律。我所谓心理变化有规律可寻者，亦就是也。</p>
+<p>　　我说“心理依力学规律而变化”，原是一种臆说，不能说是公例。公例者，无一例外之谓也。当初牛顿明万有引力，定出三例，许多人都不承认，后来逐渐证明，逐渐承认，最后宇宙各种现象，俱合牛顿规律，惟天王星不合，有此例外，仍不能成为公例。直到一千八百四十六年，有某天文家，将天王星合牛顿规律这部分提出，将其不合规律之部分加以研究，断定天王星之外，另有一行星，其形状如何，位置如何，加入此星之引力，天王星即合规律了。此说一表出来，众天文家，依其说以搜求之，立把海王星寻出，果然丝毫不差错，牛顿之说，乃成为公例。心理之变化，较物理更复杂，更奇妙。我之说法，不为一般人所承认者，概例外之事太多也。我不认为我之臆说有错，而认为人心中之海王星太多。我们亦能只握著大原则，以搜求各人心中之海王星耳。</p>
+<p>　　有人说：你想把人事与物理沟通为一，从前许多人都做过这种工作，无奈这条路走不通。我说：苏彝士运河，从前许多人都说凿不通，卒之凿通。巴拿马运河，许多人都说凿不通，卒之也凿通。我认为自然界以同一原则生人生物，物理上之规律，必可适用于人事，不过我个人学识不够，不能把他沟通为一罢了。学术者，世界公物，当合全世界研究之，非一人之力所能胜也。尚望读者诸君共同研究，如我这种方式走不通，希望读者另用他种方式把他弄通。我研究这个问题，如坠五里雾中，诸君其亦怜我之愚，而有以教之乎！</p>
+<p>　　物理纷繁极矣，牛顿寻出规律，纷繁之物理，厘然就诸，而科学因之大进步。世界纷乱极矣，我们在人事上如能寻出规律，则世界学说，可归一致，人世之纠纷，可以免除，而文明自必大进步。此著者所为希望诸君共同研究者也。</p>
+<p>　　中华民国三十一年十月八日，李宗吾，于陪都。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../zongwuyitan/houheiyuanli/instruction.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../zongwuyitan/houheiyuanli/xlycd.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../zongwuyitan/houheiyuanli/instruction.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../zongwuyitan/houheiyuanli/xlycd.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+        <script src="../../ace.js"></script>
+        <script src="../../editor.js"></script>
+        <script src="../../mode-rust.js"></script>
+        <script src="../../theme-dawn.js"></script>
+        <script src="../../theme-tomorrow_night.js"></script>
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

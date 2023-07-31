@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>自序一 - 厚黑学</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="厚黑学,李宗吾">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../instruction.html">简介</a></li><li class="chapter-item expanded "><a href="../../zongwuyitan/instruction.html"><strong aria-hidden="true">1.</strong> 宗吾臆谈</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/houheixue/instruction.html"><strong aria-hidden="true">1.1.</strong> 厚黑学</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/houheixue/zx.html"><strong aria-hidden="true">1.1.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/xl.html"><strong aria-hidden="true">1.1.2.</strong> 绪论</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/hhxs.html"><strong aria-hidden="true">1.1.3.</strong> 厚黑学上卷：厚黑学</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/hhxzj.html"><strong aria-hidden="true">1.1.4.</strong> 厚黑学中卷：厚黑经</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/hhxcxlx.html"><strong aria-hidden="true">1.1.5.</strong> 厚黑学下卷：厚黑传习录</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheixue/jl.html"><strong aria-hidden="true">1.1.6.</strong> 结论</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/instruction.html"><strong aria-hidden="true">1.2.</strong> 厚黑原理(心理与力学)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/x.html"><strong aria-hidden="true">1.2.1.</strong> 序</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/xlycd.html"><strong aria-hidden="true">1.2.2.</strong> 性灵与磁电</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/mxyxzzd.html"><strong aria-hidden="true">1.2.3.</strong> 孟荀言性之争点</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/sryxwd.html"><strong aria-hidden="true">1.2.4.</strong> 宋儒言性误点</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/gzyxzq.html"><strong aria-hidden="true">1.2.5.</strong> 告子言性正确</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/xlylxglebh.html"><strong aria-hidden="true">1.2.6.</strong> 心理依力学规律而变化</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/rsbhzgd.html"><strong aria-hidden="true">1.2.7.</strong> 人事变化之轨道</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/sjjhzgd.html"><strong aria-hidden="true">1.2.8.</strong> 世界进化之轨道</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/dewxszxz.html"><strong aria-hidden="true">1.2.9.</strong> 达尔文学说之修正</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/klptjxszxz.html"><strong aria-hidden="true">1.2.10.</strong> 克鲁泡特金学说之修正</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/wggzxshylxyl.html"><strong aria-hidden="true">1.2.11.</strong> 我国古哲学说含有力学原理</a></li><li class="chapter-item "><a href="../../zongwuyitan/houheiyuanli/jjzzwjszycyhlzy.html"><strong aria-hidden="true">1.2.12.</strong> 经济、政治、外交三者应采用合力主义</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/woduishengrenzhihuaiyi/instruction.html"><strong aria-hidden="true">1.3.</strong> 我对圣人之怀疑</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/woduishengrenzhihuaiyi/zx.html"><strong aria-hidden="true">1.3.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/woduishengrenzhihuaiyi/wdysrzhy.html"><strong aria-hidden="true">1.3.2.</strong> 我对于圣人之怀疑</a></li></ol></li><li class="chapter-item expanded "><a href="../../zongwuyitan/kaoshizhizhishangque/instruction.html"><strong aria-hidden="true">1.4.</strong> 考试制之商榷</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../zongwuyitan/kaoshizhizhishangque/zx1.html" class="active"><strong aria-hidden="true">1.4.1.</strong> 自序一</a></li><li class="chapter-item "><a href="../../zongwuyitan/kaoshizhizhishangque/zx2.html"><strong aria-hidden="true">1.4.2.</strong> 自序二</a></li><li class="chapter-item "><a href="../../zongwuyitan/kaoshizhizhishangque/kszzsq.html"><strong aria-hidden="true">1.4.3.</strong> 考试制之商榷</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/instruction.html"><strong aria-hidden="true">1.5.</strong> 社会问题之商榷</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/zx.html"><strong aria-hidden="true">1.5.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/gscczqf.html"><strong aria-hidden="true">1.5.2.</strong> 公私财产之区分</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/rxsezyj.html"><strong aria-hidden="true">1.5.3.</strong> 人性善恶之研究</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/sjjhzgd.html"><strong aria-hidden="true">1.5.4.</strong> 世界进化之轨道</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/jjshwtzbf.html"><strong aria-hidden="true">1.5.5.</strong> 解决社会问题之办法</a></li><li class="chapter-item "><a href="../../zongwuyitan/shehuiwentizhishangque/gzxszth.html"><strong aria-hidden="true">1.5.6.</strong> 各种学说之调和</a></li></ol></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/instruction.html"><strong aria-hidden="true">1.6.</strong> 中国学术之趋势</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/zx.html"><strong aria-hidden="true">1.6.1.</strong> 自序</a></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/lzycmd.html"><strong aria-hidden="true">1.6.2.</strong> 老子与程明道</a></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/sxysx.html"><strong aria-hidden="true">1.6.3.</strong> 宋学与蜀学</a></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/srzdt.html"><strong aria-hidden="true">1.6.4.</strong> 宋儒之道统</a></li><li class="chapter-item "><a href="../../zongwuyitan/zhongguoxueshuzhiqushi/zxwhzrh.html"><strong aria-hidden="true">1.6.5.</strong> 中西文化之融合</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item "><a href="../../houheiconghua/instruction.html"><strong aria-hidden="true">2.</strong> 厚黑丛话</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/instruction.html"><strong aria-hidden="true">2.1.</strong> 厚黑丛话：六卷</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj1.html"><strong aria-hidden="true">2.1.1.</strong> 厚黑丛话：卷一</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj2.html"><strong aria-hidden="true">2.1.2.</strong> 厚黑丛话：卷二</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj3.html"><strong aria-hidden="true">2.1.3.</strong> 厚黑丛话：卷三</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj4.html"><strong aria-hidden="true">2.1.4.</strong> 厚黑丛话：卷四</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj5.html"><strong aria-hidden="true">2.1.5.</strong> 厚黑丛话：卷五</a></li><li class="chapter-item "><a href="../../houheiconghua/hhchliujuan/hhchj6.html"><strong aria-hidden="true">2.1.6.</strong> 厚黑丛话：卷六</a></li></ol></li><li class="chapter-item "><a href="../../houheiconghua/houheiyutan/instruction.html"><strong aria-hidden="true">2.2.</strong> 厚黑余谈</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../houheiconghua/houheiyutan/qy.html"><strong aria-hidden="true">2.2.1.</strong> 前言</a></li><li class="chapter-item "><a href="../../houheiconghua/houheiyutan/wdsxtx.html"><strong aria-hidden="true">2.2.2.</strong> 我的思想体系</a></li></ol></li><li class="chapter-item "><a href="../../houheiconghua/palaopodezhexue/instruction.html"><strong aria-hidden="true">2.3.</strong> 怕老婆的哲学</a></li><li class="spacer"></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">厚黑学</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/januborer/houheixue" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="自序一"><a class="header" href="#自序一">自序一</a></h1>
+<p>自序一编辑</p>
+<p>　　从前四川只有一个省立中学校，一个省立师范学校。民国三年春，添设三个省立中学校，三个省立师范。省立第二中学校，设在江油中坝（去年移设绵阳。改立省立绵阳中学），我奉委充任校长，前往开办。民国五年春，调任省视学。我本是发明厚黑学的人，教职员与我饯行，说道：“天将以夫子为木铎。”我觉得这个职务，于宣传吾道是为适宜，一当就当了十几年。查学之暇，有教职员或有其他的人，问及厚黑学，我就源源本本地大讲而特讲。我查学得罪的人很多，凡是控我的，或出印刷物攻击我的，第一大罪，就是讲厚黑学，省公署及教育厅，都是有案可稽。</p>
+<p>　　我查学，一面叫人遵守部章，一面又力说部章之不合。我认为全国教育之窳败，病根全在学制之不善，主张施行一种考试制，以救其弊。民国十一年，当局召集全川各县县视学（其时之视学，即后来之教育局长），在重庆开会，我把我的主张，著为一文，曰：《教育刍议》，在审查会，即被打消了。旋同省视学游子九，奉派赴南北各省，考察教育，同教育界名流讨论，大都认为有实施考试制之必要。十二年下学期，成都开“新学制会议”，我同几位“省视学”及会员多人，提出考试案，开会讨论，又未通过。会毕，我单独上一呈文，请在我原籍富顺试办，经省署核准，即于十三年暑假举行。永宁道尹高鹏程，跟即呈请推扩于川南廿五县。十三年年假时，叙州联合县立中校校长樊崇纲，呈请仿照富顺中学办理，省署委我主试员，学生罢考肆闹，斥退八人，馀者一律就试。试毕，我呈准省署，通令试办，各县遂先后举行。</p>
+<p>　　十四年暑假，叙州联立中校毕业，永宁道公署科长何觉民为主试员，年假该校毕业，我复为主试员，考了几场。一夜学生多人，手持木棒哑铃，把我拖出寝室，痛打一顿。其时秩序非常之好，全场静静悄悄，学生寂无一语，我也默不一语，惟闻乒乓之声。学生临走，骂道：“你这狗东西，还主不主张严格考试？”我睡在地下，想道：“只要不打死，又来！”后来伤好了，我特做一篇《考试制之商榷》，说明考试之必要，由教育厅印发各县讨论，后来我又把他刊入《宗吾臆谈》。一切说法，暗中以我的厚黑哲理为根据，不过莫有提明厚黑二字罢了。不经这一打，我这篇文字，是不能作的，对于该生等，不能不深深感谢。</p>
+<p>　　读者至此，必发生疑问道：“厚黑教主，都被人痛打，我们学这门学问何用？”这种疑问，是应该有的，等我空了，把被打之经过，及被打以后之办法，详详细细写出来，诸君读了，一定发生一种勇气，恨不得什么时候，也被学生痛痛的打一顿。闲话休提，言归正传。</p>
+<p>　　学生去后，我请宜宾知事来验伤，将伤单粘卷，木棒哑铃，存案备查。次晨，我请该校邓校长到床前，口授电文，请其录出，呈报上峰，历述经过情形，末云：“自经此次暴动，愈见考试之必要，视学身受重伤，死生莫卜，如或不起，尚望厉行考试，挽此颓风，生平主张，倘获见诸实行，身在九原，亦当引为大幸。伏枕陈辞，诸惟亮察等语。（原电及伤单载四川教育公报，第一卷，第一期）”</p>
+<p>　　现在全国举行会考，许多人问我说道：你的希望，而今可算达到了。”我说道：我所主张的考试，有两种意义：一是因为各校内容窳败，用一种考试以救其弊。二是现在的学制，太把人拘束紧了，因主张彻底解放，而以考试制汇其归。现行的会考制，只有前一种意义，后一种则无之。我因把从前所著的《考试制之商榷》，重印出来，籍供研究。</p>
+<p>　　我这篇文字，发表后，会引起许多人的指驳，大概说：“（一）考试偏重在智识方面，把德育抛弃了。（二）整顿教育，当从各方面进行，不单是一个考试制，就能整顿好。（三）文意重在提倡自修，提倡私塾，学校中科学繁多，又须种种设备，岂是私塾和自修，所能办到？（四）我们提倡私塾，万一私塾发达，学校中的学生，岂不减少，招生必感困难。（五）东西各国，教育方法很多，为甚舍去不谈，只谈考试？（六）即使要考试，只能考中学以上，小学则不必考，（七）关于考试的法子，应当讨论的地方很多，何故忽略不谈？（八）施行考试后，必发生如何如何的弊端……。”这些疑点，我原文中都有解释，既是读了后，仍有此种疑虑，我可再说一下：</p>
+<p>　　我当省视学十馀年，所有查学报告，无一篇不谈整理的方法，此篇文字，注重在考试，故只谈考试，其他整理方法，自然不能谈及。我主张的考试，是于正式学校之外，再添一种自修生，和私塾生，同齐考试，并不是有了考试，就废去学校，再办私塾。如学生认为自修和私塾，不能操学问，尽管到正式学校去肄业就是了。现在的私塾，诚然坏的很多，我主张先把考试制确定了，私塾学校，平等待遇，使私塾学生有了出路，再筹划改良私塾的法子。</p>
+<p>　　私塾未受公家金钱，学校是受了公家的金钱的，如果一经考试，而私塾遂发达，学校之学生遂减少，则学校办理之不善可知，在此种情况之下，尚欲抑制私塾，学校岂不愈趋窳败吗？学校不是专商，为甚怕人与之竞争？我们站在国家立场上观之，私塾与学校，同是造就人才的地方，学校方面，具何理由，取得专商资格？各县每有一种规定：附近学校，如有私塾，即予查封，我真百思不解。</p>
+<p>　　至于考试的法子，应详加讨论，这是不待说的，施行考试，有种种流弊，也是当然的事。我的意思，先把考试制确定了，才能讨论考试的法子和救弊的方法。我做这篇文字的时候，考试制尚未确定，故只说明原则，未说到具体办法。</p>
+<p>　　教育家有良好的整顿方法，尽管办去，东西各国的教育法，尽管采用，考制试并不能妨害它。像现今的学制，有了部令的限制，眼见许多良好办法，也行使不出来。且各人之观察不同，甲之所谓良好者，乙未必以为良好，我可断定。任何教育家上台，制出一部教育法令，都不能满一般人之意。既是这样，我们就该把现行学制打破了，使全国教育家，把各人心中所谓良好办法，拿出来实行，分头并进，教育才能尽量发展。我们设一个：考试制，统辖之，考试标准，由众人共同拟宁，如此则散漫之中，仍寓划一之制。</p>
+<p>　　施行考试，把德育一层抛弃了，这是最受人訾议的，但我还有一种说法，现在的教育法令，对于德育一层，可说是很注重了。我尝听见许多教职员说道：“成都这个地方真坏，许多外县学生，初来时很诚朴，眼看他一天一天的坏。”我说道：学校是造就人才的地方，论理坏学生应该使他变成好学生，才是学校的天职。你只看见好学生入校，变成坏学生，曾看见坏学生入校，变成好学生否？闻者无词以答。我每遇教职员，就向：“据你的实地经验，坏学生入校，变成好学生的，屈指能数几个？”竟无人能答。由此知：关于德育，另是一回事，考试制固然抛弃了德育，现行教育法令，谆谆顾及德育，实际上，也无何种效果，故文中于此点，特别说明。</p>
+<p>　　我是苦现在的学制太拘束紧了，主张以考试为开放。下手从小学开放起走，就从小学考试起走，从小学考试起走，小学收了效，再开放中学，由是以至于大学。民国十三年暑假，我在富顺试办，中学修业年满者，方能与试，小学则不分私塾学校，只要程度及格，即给与毕业文凭。十四年二月，省署据我的呈请，制定各级学校毕业考试暂行条例，通令办理。此项条例，是省署教育科科长万克明拟的，万君主张中小学俱会考，我则主张：小学会考时，不分学校与私塾，一律与考，中学则修业年满，委员到校考试。因为小学考试易办，中学较难，各校办法参差，教科书不一致，且集多数学生于一处，一校学生，借故闹事，势必波及全体，考试制难免不发生动摇。不如每校分考，由委员斟酌情形办理，即使一校闹事，与他校无关，俟考试制基础稳固了，各中校渐归划一了，再举中学会考，仿照小学办法，自修生和私塾生，也能参与中学考试。万君依我的主张，制为条例，后来我在叙校被殴，疗养稍愈，即裹伤上堂，勒令全体学生，一律就试，不许一人不到，场规较前更加严厉。考试终了之后，才把殴我的学生，送交宜宾知事讯办。这是由于一校闹事，范围小，易于办理，故主试员虽被殴辱，考试制仍未发生动摇。</p>
+<p>　　十四年，川省颁布毕业考试条例后，各县逐渐推行。廿三年，中央颁行中学会考制，取消小学会考制，成都华阳等六十一县教育局长，以川省小学会考，颇收成效，联名协请保留此项制度，教育厅转呈教育部，奉指令姑准再办一年。廿四年四川省政府咨教育部，罗举理由，请予保留，复电姑准再办一年。至今年（廿五年）各县遂一律停止小学会考，也未另办私塾学生之考试，我在川省教育界遗留之痕迹，就算完全肃清了。</p>
+<p>　　我退出教育界后，专研究厚黑学哲理，对于教育情形，是很隔膜的。近日打算把平日作品，分印单行本，故将《考试制之商榷》也印出。而今事隔十年，环境变迁，文中许多说法，都不合现情了。但这篇文字，曾经教育厅编审处印作单行本，发交各县，并载入十六年十月教育公报内，我也未便修改，只得依原本刻出，以存其真。将来拟写一种随笔，再将应当修改及补充之点说明。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../zongwuyitan/kaoshizhizhishangque/instruction.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../zongwuyitan/kaoshizhizhishangque/zx2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../zongwuyitan/kaoshizhizhishangque/instruction.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../zongwuyitan/kaoshizhizhishangque/zx2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+        <script src="../../ace.js"></script>
+        <script src="../../editor.js"></script>
+        <script src="../../mode-rust.js"></script>
+        <script src="../../theme-dawn.js"></script>
+        <script src="../../theme-tomorrow_night.js"></script>
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
